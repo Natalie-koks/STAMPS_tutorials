@@ -79,7 +79,6 @@ cd subsamp_mock
 
 #### Raw sequence data observation
 Once our dependencies are installed and data downloaded we will use [NanoPlot](https://github.com/wdecoster/NanoPlot). This is a program within the NanoPack2 suite of tools
-![Screenshot 2024-07-21 at 1.02.19 PM](https://hackmd.io/_uploads/S1gL1a5d0.png)
 
 ```
 # For individual files
@@ -126,7 +125,7 @@ Question: At around which quality score was this data prefiltered at?
 #### Read filtering and trimming
 There are many options for this step but for long reads use [chopper](https://github.com/wdecoster/chopper) or [filtlong](https://github.com/rrwick/Filtlong) (if you don't know if you still have primers on your reads choose filtlong but most basecalling steps currently remove them)
 
-![mg_coolguy](https://hackmd.io/_uploads/r1_fs9nvR.png)
+![mg_coolguy](https://github.com/MGNute/stamps_2024_assembly_tutorial/blob/main/img/mg_coolguy.png)
 **Mission Impossible Mike**
 
 To use chopper on a single file
@@ -170,7 +169,7 @@ Try repeating the NanoPlot step on these new files to see how the data was affec
 #### Emu classification
 Now we can take the outputs of the chopper step and use these sequences within [emu](https://github.com/treangenlab/emu)!
 
-![emu](https://hackmd.io/_uploads/Skkkoq2vA.png)
+![emu](https://github.com/MGNute/stamps_2024_assembly_tutorial/blob/main/img/emu.png)
 
 Now to install the Emu database 
 ```
