@@ -1,7 +1,3 @@
----
-title: STAMPS_Day4_Emu_Tutorial
-
----
 
 ## 16S rRNA microbiome analysis using Emu
 
