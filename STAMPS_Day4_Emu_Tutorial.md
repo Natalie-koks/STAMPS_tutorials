@@ -43,7 +43,7 @@ That's a good start, we'll work on our skills more as we go!
 #### Making our conda env 
 By making a **conda** environment of course!
 
-![conda](https://hackmd.io/_uploads/HJsJwFdu0.png)
+![conda](https://github.com/MGNute/stamps_2024_assembly_tutorial/blob/main/img/conda.png)
 
 ```
 #Thanks to Mike Lee we have emu installed for us
